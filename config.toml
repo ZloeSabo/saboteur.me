@@ -1,7 +1,7 @@
 baseurl = "https://saboteur.me"
 languageCode = "en"
-title = "Kitteh driven development"
-theme = "Hucore"
+title = "Entropy driven development"
+theme = "hucore"
 copyright = "&copy; 2017 Evgeny Soynov"
 #disqusShortname = "shortname"
 #googleAnalytics = "trackingcode"
@@ -13,7 +13,7 @@ category = "categories"
 
 [params]
 description = "Webdev, random thoughts, kitehs"
-keywords = ["keyword 1", "keyword 2", "keyword 3"]
+keywords = ["engineering", "leadership", "random"]
 author = "Evgeny Soynov"
 sharingicons = true
 displayauthor = true
