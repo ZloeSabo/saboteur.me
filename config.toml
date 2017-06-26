@@ -1,0 +1,40 @@
+baseurl = "https://saboteur.me"
+languageCode = "en"
+title = "Kitteh driven development"
+theme = "Hucore"
+copyright = "&copy; 2017 Evgeny Soynov"
+#disqusShortname = "shortname"
+#googleAnalytics = "trackingcode"
+SectionPagesMenu = "main"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "Webdev, random thoughts, kitehs"
+keywords = ["keyword 1", "keyword 2", "keyword 3"]
+author = "Evgeny Soynov"
+sharingicons = true
+displayauthor = true
+displaydates = false
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/ZloeSabo"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://linkedin.com/in/soynov"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/soynov"
+fa_icon = "fa-linkedin-square"
