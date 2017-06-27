@@ -4,8 +4,10 @@ title = "Entropy driven development"
 theme = "hucore"
 copyright = "&copy; 2017 Evgeny Soynov"
 #disqusShortname = "shortname"
-#googleAnalytics = "trackingcode"
+googleAnalytics = "UA-32123325-1"
 SectionPagesMenu = "main"
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
 
 [taxonomies]
 tag = "tags"
