@@ -1,42 +1,17 @@
-baseurl = "https://saboteur.me"
-languageCode = "en"
-title = "Entropy driven development"
-theme = "hucore"
-copyright = "&copy; 2017 Evgeny Soynov"
-#disqusShortname = "shortname"
-googleAnalytics = "UA-32123325-1"
-SectionPagesMenu = "main"
-enableRobotsTXT = true
-disableHugoGeneratorInject = true
+languageCode = "en-us"
+title = "Software Engineering Leader"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
 
-[taxonomies]
-tag = "tags"
-category = "categories"
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
 
 [params]
-description = "Webdev, random thoughts, kitehs"
-keywords = ["engineering", "leadership", "random"]
-author = "Evgeny Soynov"
-sharingicons = true
-displayauthor = true
-displaydates = false
-
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
-
-[[params.social]]
-url = "https://github.com/ZloeSabo"
-fa_icon = "fa-github"
-
-[[params.social]]
-url = "https://linkedin.com/in/soynov"
-fa_icon = "fa-linkedin-square"
-
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
-
-[[params.socialshare]]
-url = "https://linkedin.com/in/soynov"
-fa_icon = "fa-linkedin-square"
+    description = "Software Engineering Leader in Berlin"
+    footer = "&copy; [E.S.](https://saboteur.me) 2017 -- 2018 | [LinkedIn](https://www.linkedin.com/in/soynov/)"
